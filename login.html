@@ -1,0 +1,152 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <title>SNS Automotive Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="loginstyle.css">
+        <link rel="stylesheet" href="loginscript.js">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="header">
+            <div class="navbar">
+                    <div class="logo">
+                        <img src="image/logo.jpg" alt="">
+                    </div>
+                    <ul id="list">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about-us.html">ABOUT US</a></li>
+                        <li><a href="testimonial.html">TESTIMONIALS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="login.html"><button type="button">Sign Up</button></a></li>
+                        <img src="image/ar6.png" alt="" id="closeMenu">
+                    </ul>
+                    
+                    <img src="image/menu.png" alt="" id="sideMenu">
+            </div>
+        </div>
+        <div class="container" id="signup" style="display: none;">
+            <h1 class="form-title">Register</h1>
+            <form method="post" action="">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="fName" id="fName" placeholder="First Name" required>
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="lName" id="lName" placeholder="Last Name" required>
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    <label for="password">Password</label>
+                </div>
+                <input type="submit" class="btn" value="Sign Up" name="signup">
+            </form>
+            <p class="or">
+                ------------or------------
+            </p>
+            <div class="icons">
+                <i class="fab fa-google"></i>
+                <i class="fab fa-facebook"></i>
+            </div>
+            <div class="links">
+                <p>Already Have Account ?</p>
+                <button id="signInButton">Sign In</button>
+            </div>
+        </div>
+
+
+        <section id="loginpage">
+        <div class="container" id="signin">
+            <h1 class="form-title">Sign In</h1>
+            <form method="post" action="">
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    <label for="password">Password</label>
+                </div>
+                <p class="recover">
+                    <a href="#">Recover Password</a>
+                </p>
+                <input type="submit" class="btn" value="Sign In" name="signin">
+            </form>
+            <p class="or">
+                ------------or------------
+            </p>
+            <div class="icons">
+                <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=AcMMx-dGrreI59tpfwqIdFQzkV9AH-PBIH9wD97rPRsRlzyb43vvj7NVwmYfyBLA8RdoT6a8Wz6aQw&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-117242871%3A1730187306525918&ddm=0"><i class="fab fa-google"></i></a>
+                <a href="https://www.facebook.com/login/"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="links">
+                <p>Don't have account yet ?</p>
+                <button id="signUpButton">Sign Up</button>
+            </div>
+        </div>
+    </section>
+
+    
+        <section id="lastsec">
+            <footer>
+                <div class="footer-info">
+                    <div class="footer-width contact">
+                        <h2>Contact Us</h2>
+                        <ul>
+                            <li>
+                                <span><i class="fas fa-map-marker-alt"></i></span>
+                                <p>SNS AUTOMOTIVE, PANDHARPUR</p>
+                            </li>
+                            <li>
+                                <span><i class="far fa-envelope"></i></span>
+                                <a href="mailto:dnyaneshshinde08@gmail.com">dnyaneshshinde08@gmail.com</a>
+                            </li>
+                            <li>
+                                <span><i class="fas fa-phone-volume"></i></span>
+                                <a href="telto:+919890224411">9890224411</a>
+                            </li>
+                        </ul>
+                    
+                    </div>
+                <div class="footer-width link">
+                    <h2>Quick links</h2>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about-us.html">ABOUT US</a></li>
+                        <li><a href="testimonial.html">TESTIMONIALS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="footer-width about">
+                    <h2>Follow Us</h2>
+                    <div class="social-media">
+                        <ul>
+                            <li><a href="https://www.facebook.com/Dnyaneshshinde08/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/dnyanesh_a_shinde/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            
+                        </ul>
+                    </div>
+                  
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>&copy; 2023 SNS AUTOMOTIVE . All right reserved</p>
+            </div>
+        </footer>
+    </section>
+
+        
+        <script src="loginscript.js"></script>
+    </body>
+ </html>
